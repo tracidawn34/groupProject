@@ -56,7 +56,22 @@ font-size: 50px;
 
   .price{
     text-align: center;
-    color:  rgba(155, 8, 8, 0.981) ;
-    font-size:50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgba(248, 240, 240, 0.981) ;
+    font-size: 70px;
+    
   }
+  .service{
+    background-color: rgb(15, 14, 14);
+    text-align: center;
+    font-size: 50px;
+    color:rgba(155, 8, 8, 0.981) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .address{
+    background-color: rgb(15, 14, 14);
+    text-align: center;
+    font-size: 50px;
+    color:rgba(155, 8, 8, 0.981) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
