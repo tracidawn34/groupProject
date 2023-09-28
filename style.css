@@ -3,16 +3,16 @@ body {
     background-color:burlywood ;
 }
 .name{
-   font-size:100px ;
-   color: rgba(20, 82, 228, 0.716);
+   font-size: 200px;
+   color: rgba(155, 8, 8, 0.981);
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  text-align: center;
 }
 .descript{
     text-align: center;
-    color: rgba(20, 82, 228, 0.716);
+    color: rgba(228, 219, 219, 0.981);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+font-size: 50px;
 }
 .topnav {
     display: flex;
@@ -36,6 +36,10 @@ body {
 .topnav a:hover {
     background-color: #ddd;
     color: black;}
+   
+    .topnav a:active{
+        background-color:  rgba(155, 8, 8, 0.981);
+    }
 
 
  section{
@@ -46,3 +50,13 @@ body {
     color: white;
  }  
  
+ body {
+    background-image: url("streaming.jpg");
+  }
+
+  .price{
+    text-align: center;
+    color:  rgba(155, 8, 8, 0.981) ;
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
